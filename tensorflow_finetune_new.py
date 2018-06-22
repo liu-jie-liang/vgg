@@ -60,7 +60,7 @@ import tensorflow.contrib.slim.nets
 parser = argparse.ArgumentParser()
 parser.add_argument('--train_dir', default='flowers/train')
 parser.add_argument('--val_dir', default='flowers/val')
-parser.add_argument('--model_path', default='vgg16-20160129.tfmodel', type=str)
+parser.add_argument('--model_path', default='vgg_16.ckpt', type=str)
 parser.add_argument('--batch_size', default=32, type=int)
 parser.add_argument('--num_workers', default=4, type=int)
 parser.add_argument('--num_epochs1', default=10, type=int)
